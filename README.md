@@ -92,3 +92,34 @@ I de gitte testene forventes det at objekter som representerer enheter tilbyr sp
 
 Ta gjerne en titt i [testfilen](https://github.com/selabhvl/ing301-projectpartA-startcode/blob/main/tests/test_part_a.py) for å sjekke hvilke funksjoner forventes av deres domenemodell.
 
+
+...................................................
+
+
+# ING301 Prosjekt Del A – SmartHouse
+
+## Gruppe
+Gruppe 11A
+
+## Om prosjektet
+Dette prosjektet er Del A av SmartHouse-oppgaven i ING301. Målet har vært å lage en domenemodell og grunnleggende funksjonalitet for et smarthussystem.
+
+Løsningen består av klasser for målinger, enheter, sensorer, aktuatorer, rom, etasjer og selve SmartHouse-systemet. I tillegg er det laget et demo-hus som brukes i testene.
+
+## Mappestruktur
+
+```text
+.
+├── README.md
+├── domainmodel.[filtype]
+├── .gitignore
+├── .github
+│  └── workflows
+│     └── check-assignment-code.yaml
+├── smarthouse
+│  ├── __init__.py
+│  └── domain.py
+└── tests
+   ├── __init__.py
+   ├── demo_house.py
+   └── test_part_a.py
